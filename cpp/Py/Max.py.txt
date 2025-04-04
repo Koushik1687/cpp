@@ -1,0 +1,8 @@
+a = [12,56,23,89,9]
+m = 0
+index = 0
+for i in range (len(a)):
+    if a[i] > m:
+        m = a[i]
+        index = i
+print(f"Max = {m}\nindex ={index}")

@@ -1,0 +1,10 @@
+str = "p@#yn26at^&i5ve"
+ch = dig = sch = 0
+for i in str:
+    if i.isdigit():
+        dig += 1
+    elif i.isalpha():
+        ch += 1
+    else:
+        sch +=1
+print(f"No. of Character = {ch}\nNo. of Digit = {dig}\nNo. of Special character = {sch} ")

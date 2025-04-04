@@ -1,0 +1,9 @@
+a = [1,-6,-3,5,9,-2,5,-1]
+pos = []
+neg = []
+for i in a:
+    if i >= 0:
+        pos.append(i)
+    else:
+        neg.append(i)
+print(f"Positive = {pos}\nNegetive = {neg}")
